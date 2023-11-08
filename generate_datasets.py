@@ -81,8 +81,8 @@ def generate_train_val_test(args):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--output_dir', type=str, default="data/processed/PEMS04/", help="输出文件夹")
-    parser.add_argument('--traffic_df_filename', type=str, default="data/PEMS04/PEMS04.npz", help="数据集")
+    parser.add_argument('--output_dir', type=str, default="data/processed/PEMS08/", help="输出文件夹")
+    parser.add_argument('--traffic_df_filename', type=str, default="data/PEMS08/PEMS08.npz", help="数据集")
     parser.add_argument('--seq_length_x', type=int, default=12, help='输入序列长度')
     parser.add_argument('--seq_length_y', type=int, default=12, help='输出序列长度')
     parser.add_argument('--y_start', type=int, default=1, help='从第几天开始预测')
