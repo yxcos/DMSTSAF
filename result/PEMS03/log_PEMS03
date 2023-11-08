@@ -1,0 +1,3 @@
+Namespace(no_cuda=False, data='./data/processed/PEMS03/', sensors_distance='./data/PEMS03/PEMS03.csv', column_wise=False, normalizer='std', batch_size=32, num_of_vertices=358, construct_type='connectivity', in_dim=5, hidden_dims=[[64, 64], [64, 64], [64, 64], [64, 64]], first_layer_embedding_size=64, out_layer_dim=128, history=12, horizon=12, strides=2, temporal_emb=True, spatial_emb=True, use_mask=True, activation='GLU', seed=10, learning_rate=0.003, lr_decay=True, lr_decay_step='20,40', lr_decay_rate=0.3, epochs=200, print_every=100, save='./garage/PEMS03/', expid=1, max_grad_norm=5.0, patience=20, log_file='./result/PEMS03/log_PEMS03')
+st_adj loaded!
+loading data...
