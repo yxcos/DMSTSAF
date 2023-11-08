@@ -9,7 +9,6 @@ import tqdm
 
 from engine import trainer
 from utils import *
-from bi_kmeans import *
 import ast
 
 DATASET = 'PEMS08'  # PEMSD4 or PEMSD8
