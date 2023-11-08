@@ -89,10 +89,9 @@ if __name__ == '__main__':
 
     args = parser.parse_args()
 
-    if os.path.exists(args.output_dir):
-        reply = str(input(f'{args.output_dir} 存在，是否将其作为输出目录?(y/n)')).lower().strip()
-        if reply[0] != 'y':
-            exit()
+
+    if os.path.exists(args.output_dir):        
+        print('dir exists')
     else:
         os.makedirs(args.output_dir)
 
